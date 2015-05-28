@@ -14,7 +14,7 @@
 		8483DA1B1B16967700DE5D87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8483DA1A1B16967700DE5D87 /* Images.xcassets */; };
 		8483DA1E1B16967700DE5D87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8483DA1C1B16967700DE5D87 /* LaunchScreen.xib */; };
 		8483DA2A1B16967700DE5D87 /* PIForceTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483DA291B16967700DE5D87 /* PIForceTouchTests.swift */; };
-		84BE6C491B16A6B10037BDC2 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE6C481B16A6B10037BDC2 /* DemoView.swift */; };
+		84BE6C4B1B16AAFA0037BDC2 /* PIForceTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE6C4A1B16AAFA0037BDC2 /* PIForceTouch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,7 @@
 		8483DA231B16967700DE5D87 /* PIForceTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PIForceTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8483DA281B16967700DE5D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8483DA291B16967700DE5D87 /* PIForceTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIForceTouchTests.swift; sourceTree = "<group>"; };
-		84BE6C481B16A6B10037BDC2 /* DemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		84BE6C4A1B16AAFA0037BDC2 /* PIForceTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PIForceTouch.swift; sourceTree = "<group>"; };
 		AEEB24FA80E9AFE1CD43727F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +96,7 @@
 			children = (
 				8483DA131B16967700DE5D87 /* AppDelegate.swift */,
 				8483DA151B16967700DE5D87 /* ViewController.swift */,
-				84BE6C481B16A6B10037BDC2 /* DemoView.swift */,
+				84BE6C4A1B16AAFA0037BDC2 /* PIForceTouch.swift */,
 				8483DA171B16967700DE5D87 /* Main.storyboard */,
 				8483DA1A1B16967700DE5D87 /* Images.xcassets */,
 				8483DA1C1B16967700DE5D87 /* LaunchScreen.xib */,
@@ -290,8 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BE6C4B1B16AAFA0037BDC2 /* PIForceTouch.swift in Sources */,
 				8483DA161B16967700DE5D87 /* ViewController.swift in Sources */,
-				84BE6C491B16A6B10037BDC2 /* DemoView.swift in Sources */,
 				8483DA141B16967700DE5D87 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

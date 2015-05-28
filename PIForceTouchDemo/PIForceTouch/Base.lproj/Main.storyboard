@@ -17,11 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eml-f9-dWl" customClass="DemoView" customModule="PIForceTouch" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eml-f9-dWl" customClass="PIForceTouchView" customModule="PIForceTouch" customModuleProvider="target">
                                 <rect key="frame" x="16" y="66" width="568" height="514"/>
                                 <color key="backgroundColor" white="1" alpha="0.080000000000000002" colorSpace="calibratedWhite"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch &amp; Force Touch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVY-E1-h1L">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try in Device, not Simulator." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVY-E1-h1L">
                                 <rect key="frame" x="16" y="30" width="568" height="26"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -40,7 +40,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="demoView" destination="Eml-f9-dWl" id="Uah-vB-zNQ"/>
+                        <outlet property="demoView" destination="Eml-f9-dWl" id="8B3-xf-j7E"/>
+                        <outlet property="messageLabel" destination="RVY-E1-h1L" id="g26-1o-XeW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
