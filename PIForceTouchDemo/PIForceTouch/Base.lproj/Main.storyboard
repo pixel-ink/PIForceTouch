@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="PIForceTouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,8 +16,32 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eml-f9-dWl" customClass="DemoView" customModule="PIForceTouch" customModuleProvider="target">
+                                <rect key="frame" x="16" y="66" width="568" height="514"/>
+                                <color key="backgroundColor" white="1" alpha="0.080000000000000002" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch &amp; Force Touch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVY-E1-h1L">
+                                <rect key="frame" x="16" y="30" width="568" height="26"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10934970527887344" green="0.093072362244129181" blue="0.19848616421222687" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="RVY-E1-h1L" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="30" id="1h4-Gm-m48"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RVY-E1-h1L" secondAttribute="trailing" id="N3G-3D-Otk"/>
+                            <constraint firstItem="Eml-f9-dWl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="TWY-yD-0E6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Eml-f9-dWl" secondAttribute="trailing" id="c2x-ZY-1WR"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Eml-f9-dWl" secondAttribute="bottom" constant="20" id="d4J-H9-cPs"/>
+                            <constraint firstItem="RVY-E1-h1L" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="hSs-92-lYZ"/>
+                            <constraint firstItem="Eml-f9-dWl" firstAttribute="top" secondItem="RVY-E1-h1L" secondAttribute="bottom" constant="10" id="yij-81-PAF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="demoView" destination="Eml-f9-dWl" id="Uah-vB-zNQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
