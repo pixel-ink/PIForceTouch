@@ -3,7 +3,7 @@
 
 import UIKit
 
-@objc protocol PIForceTouchDelegate {
+@objc protocol PIForceTouchViewDelegate {
   optional func beganTouch(touch: UITouch)
   optional func forceTouch(touch: UITouch)
   optional func endedTouch(touch: UITouch)
@@ -12,7 +12,7 @@ import UIKit
 
 class PIForceTouchView : UIView {
   
-  var delegate:PIForceTouchDelegate?
+  var delegate:PIForceTouchViewDelegate?
   var threshold:CGFloat = 0
   var isForce:Bool = false
   

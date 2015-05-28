@@ -2,7 +2,7 @@
 import UIKit
 import PIRipple
 
-class ViewController: UIViewController, PIForceTouchDelegate {
+class ViewController: UIViewController, PIForceTouchViewDelegate {
 
   @IBOutlet weak var demoView: PIForceTouchView!
   @IBOutlet weak var messageLabel: UILabel!
