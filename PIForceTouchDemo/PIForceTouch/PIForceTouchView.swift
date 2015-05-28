@@ -4,10 +4,15 @@
 import UIKit
 
 @objc protocol PIForceTouchViewDelegate {
+
+  optional func touchUpInside(touch: UITouch)
+  optional func forceTouchUpInside(touch: UITouch)
+  
   optional func beganTouch(touch: UITouch)
-  optional func forceTouch(touch: UITouch)
-  optional func endedTouch(touch: UITouch)
-  optional func cancelledTouch(touch: UITouch)
+  optional func beganForceTouch(touch: UITouch)
+  optional func endedAllTouch(touch: UITouch)
+  optional func cancelledAllTouch(touch: UITouch)
+  
 }
 
 class PIForceTouchView : UIView {
@@ -23,6 +28,7 @@ class PIForceTouchView : UIView {
       let rad = t.majorRadius
       threshold = rad * CGFloat(1.3)
       delegate?.beganTouch?(t)
+      isForce = false
     }
   }
   
@@ -32,7 +38,7 @@ class PIForceTouchView : UIView {
       var t: UITouch = touch as! UITouch
       let rad = t.majorRadius
       if rad > threshold && !isForce {
-        delegate?.forceTouch?(t)
+        delegate?.beganForceTouch?(t)
         isForce = true
       }
     }
@@ -42,8 +48,17 @@ class PIForceTouchView : UIView {
     super.touchesEnded(touches, withEvent: event)
     for touch: AnyObject in touches {
       var t: UITouch = touch as! UITouch
+      let l = t.locationInView(self)
+      if frame.origin.x < l.x && l.x < frame.origin.x + frame.size.width &&
+         frame.origin.y < l.y && l.y < frame.origin.y + frame.size.height {
+        if isForce {
+          delegate?.forceTouchUpInside?(t)
+        } else {
+          delegate?.touchUpInside?(t)
+        }
+      }
       isForce = false
-      delegate?.endedTouch?(t)
+      delegate?.endedAllTouch?(t)
     }
   }
   
@@ -52,7 +67,7 @@ class PIForceTouchView : UIView {
     for touch: AnyObject in touches {
       var t: UITouch = touch as! UITouch
       isForce = false
-      delegate?.cancelledTouch?(t)
+      delegate?.cancelledAllTouch?(t)
     }
   }
 

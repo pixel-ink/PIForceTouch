@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/pixelink_jp"
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/pixel-ink/PIForceTouch.git", :tag => s.version }
-  s.source_files  = "**/PIForceTouch*.swift"
+  s.source_files  = "**/PIForceTouchView.swift"
 
 end
