@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8483DA141B16967700DE5D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483DA131B16967700DE5D87 /* AppDelegate.swift */; };
+		8483DA161B16967700DE5D87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483DA151B16967700DE5D87 /* ViewController.swift */; };
+		8483DA191B16967700DE5D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8483DA171B16967700DE5D87 /* Main.storyboard */; };
+		8483DA1B1B16967700DE5D87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8483DA1A1B16967700DE5D87 /* Images.xcassets */; };
+		8483DA1E1B16967700DE5D87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8483DA1C1B16967700DE5D87 /* LaunchScreen.xib */; };
+		8483DA2A1B16967700DE5D87 /* PIForceTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483DA291B16967700DE5D87 /* PIForceTouchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8483DA241B16967700DE5D87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8483DA061B16967700DE5D87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8483DA0D1B16967700DE5D87;
+			remoteInfo = PIForceTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8483DA0E1B16967700DE5D87 /* PIForceTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIForceTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8483DA121B16967700DE5D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8483DA131B16967700DE5D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8483DA151B16967700DE5D87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8483DA181B16967700DE5D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8483DA1A1B16967700DE5D87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8483DA1D1B16967700DE5D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8483DA231B16967700DE5D87 /* PIForceTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PIForceTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8483DA281B16967700DE5D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8483DA291B16967700DE5D87 /* PIForceTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIForceTouchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8483DA0B1B16967700DE5D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8483DA201B16967700DE5D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8483DA051B16967700DE5D87 = {
+			isa = PBXGroup;
+			children = (
+				8483DA101B16967700DE5D87 /* PIForceTouch */,
+				8483DA261B16967700DE5D87 /* PIForceTouchTests */,
+				8483DA0F1B16967700DE5D87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8483DA0F1B16967700DE5D87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8483DA0E1B16967700DE5D87 /* PIForceTouch.app */,
+				8483DA231B16967700DE5D87 /* PIForceTouchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8483DA101B16967700DE5D87 /* PIForceTouch */ = {
+			isa = PBXGroup;
+			children = (
+				8483DA131B16967700DE5D87 /* AppDelegate.swift */,
+				8483DA151B16967700DE5D87 /* ViewController.swift */,
+				8483DA171B16967700DE5D87 /* Main.storyboard */,
+				8483DA1A1B16967700DE5D87 /* Images.xcassets */,
+				8483DA1C1B16967700DE5D87 /* LaunchScreen.xib */,
+				8483DA111B16967700DE5D87 /* Supporting Files */,
+			);
+			path = PIForceTouch;
+			sourceTree = "<group>";
+		};
+		8483DA111B16967700DE5D87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8483DA121B16967700DE5D87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8483DA261B16967700DE5D87 /* PIForceTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				8483DA291B16967700DE5D87 /* PIForceTouchTests.swift */,
+				8483DA271B16967700DE5D87 /* Supporting Files */,
+			);
+			path = PIForceTouchTests;
+			sourceTree = "<group>";
+		};
+		8483DA271B16967700DE5D87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8483DA281B16967700DE5D87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8483DA0D1B16967700DE5D87 /* PIForceTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8483DA2D1B16967700DE5D87 /* Build configuration list for PBXNativeTarget "PIForceTouch" */;
+			buildPhases = (
+				8483DA0A1B16967700DE5D87 /* Sources */,
+				8483DA0B1B16967700DE5D87 /* Frameworks */,
+				8483DA0C1B16967700DE5D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PIForceTouch;
+			productName = PIForceTouch;
+			productReference = 8483DA0E1B16967700DE5D87 /* PIForceTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8483DA221B16967700DE5D87 /* PIForceTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8483DA301B16967700DE5D87 /* Build configuration list for PBXNativeTarget "PIForceTouchTests" */;
+			buildPhases = (
+				8483DA1F1B16967700DE5D87 /* Sources */,
+				8483DA201B16967700DE5D87 /* Frameworks */,
+				8483DA211B16967700DE5D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8483DA251B16967700DE5D87 /* PBXTargetDependency */,
+			);
+			name = PIForceTouchTests;
+			productName = PIForceTouchTests;
+			productReference = 8483DA231B16967700DE5D87 /* PIForceTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8483DA061B16967700DE5D87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = pixelink;
+				TargetAttributes = {
+					8483DA0D1B16967700DE5D87 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8483DA221B16967700DE5D87 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8483DA0D1B16967700DE5D87;
+					};
+				};
+			};
+			buildConfigurationList = 8483DA091B16967700DE5D87 /* Build configuration list for PBXProject "PIForceTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8483DA051B16967700DE5D87;
+			productRefGroup = 8483DA0F1B16967700DE5D87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8483DA0D1B16967700DE5D87 /* PIForceTouch */,
+				8483DA221B16967700DE5D87 /* PIForceTouchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8483DA0C1B16967700DE5D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8483DA191B16967700DE5D87 /* Main.storyboard in Resources */,
+				8483DA1E1B16967700DE5D87 /* LaunchScreen.xib in Resources */,
+				8483DA1B1B16967700DE5D87 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8483DA211B16967700DE5D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8483DA0A1B16967700DE5D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8483DA161B16967700DE5D87 /* ViewController.swift in Sources */,
+				8483DA141B16967700DE5D87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8483DA1F1B16967700DE5D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8483DA2A1B16967700DE5D87 /* PIForceTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8483DA251B16967700DE5D87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8483DA0D1B16967700DE5D87 /* PIForceTouch */;
+			targetProxy = 8483DA241B16967700DE5D87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8483DA171B16967700DE5D87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8483DA181B16967700DE5D87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8483DA1C1B16967700DE5D87 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8483DA1D1B16967700DE5D87 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8483DA2B1B16967700DE5D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8483DA2C1B16967700DE5D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8483DA2E1B16967700DE5D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PIForceTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8483DA2F1B16967700DE5D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PIForceTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8483DA311B16967700DE5D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PIForceTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PIForceTouch.app/PIForceTouch";
+			};
+			name = Debug;
+		};
+		8483DA321B16967700DE5D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PIForceTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PIForceTouch.app/PIForceTouch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8483DA091B16967700DE5D87 /* Build configuration list for PBXProject "PIForceTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8483DA2B1B16967700DE5D87 /* Debug */,
+				8483DA2C1B16967700DE5D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8483DA2D1B16967700DE5D87 /* Build configuration list for PBXNativeTarget "PIForceTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8483DA2E1B16967700DE5D87 /* Debug */,
+				8483DA2F1B16967700DE5D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8483DA301B16967700DE5D87 /* Build configuration list for PBXNativeTarget "PIForceTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8483DA311B16967700DE5D87 /* Debug */,
+				8483DA321B16967700DE5D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8483DA061B16967700DE5D87 /* Project object */;
+}
