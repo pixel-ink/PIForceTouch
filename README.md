@@ -19,4 +19,19 @@
 
 # usage
 
-working
+- add PIForchTouchView into your UIViewController
+- set delegate
+
+```
+@objc protocol PIForceTouchViewDelegate {
+
+  optional func touchUpInside(touch: UITouch)
+  optional func forceTouchUpInside(touch: UITouch)
+
+  optional func beganTouch(touch: UITouch)
+  optional func beganForceTouch(touch: UITouch)
+  optional func endedAllTouch(touch: UITouch)
+  optional func cancelledAllTouch(touch: UITouch)
+
+}
+```
