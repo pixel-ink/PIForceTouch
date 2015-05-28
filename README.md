@@ -1,1 +1,22 @@
+
 # PIForceTouch
+
+## Force Touch for iOS (swift)
+
+![](https://cocoapod-badges.herokuapp.com/l/PIForceTouch/badge.png)
+![](https://cocoapod-badges.herokuapp.com/v/PIForceTouch/badge.png)
+![](https://cocoapod-badges.herokuapp.com/p/PIForceTouch/badge.png)
+
+---
+
+# install
+
+- manually
+  - add PIForceTouchView.swift into your project
+- cocoapods
+  - add " pod 'PIForceTouch', '0.1.1' " into your Podfile
+  - add " import PIForceTouch " into your code
+
+# usage
+
+working
