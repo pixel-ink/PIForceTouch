@@ -3,4 +3,5 @@ xcodeproj 'PIForceTouch.xcodeproj'
 link_with 'PIForceTouch'
 
 use_frameworks!
-pod 'PIRipple', '0.1.2'
+pod 'PIRipple', '1.0.0'
+
