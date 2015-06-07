@@ -3,7 +3,7 @@
 
 import UIKit
 
-@objc protocol PIForceTouchViewDelegate {
+@objc public protocol PIForceTouchViewDelegate {
 
   optional func touchUpInside(touch: UITouch)
   optional func forceTouchUpInside(touch: UITouch)
@@ -15,13 +15,13 @@ import UIKit
   
 }
 
-class PIForceTouchView : UIView {
+public class PIForceTouchView : UIView {
   
-  var delegate:PIForceTouchViewDelegate?
-  var threshold:CGFloat = 0
-  var isForce:Bool = false
+  public var delegate:PIForceTouchViewDelegate?
+  public var threshold:CGFloat = 0
+  public var isForce:Bool = false
   
-  override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+  override public func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
     super.touchesBegan(touches, withEvent: event)
     for touch: AnyObject in touches {
       var t: UITouch = touch as! UITouch
@@ -32,7 +32,7 @@ class PIForceTouchView : UIView {
     }
   }
   
-  override func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
+  override public func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
     super.touchesMoved(touches, withEvent: event)
     for touch: AnyObject in touches {
       var t: UITouch = touch as! UITouch
@@ -44,7 +44,7 @@ class PIForceTouchView : UIView {
     }
   }
   
-  override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
+  override public func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
     super.touchesEnded(touches, withEvent: event)
     for touch: AnyObject in touches {
       var t: UITouch = touch as! UITouch
@@ -62,7 +62,7 @@ class PIForceTouchView : UIView {
     }
   }
   
-  override func touchesCancelled(touches: Set<NSObject>, withEvent event: UIEvent) {
+  override public func touchesCancelled(touches: Set<NSObject>, withEvent event: UIEvent) {
     super.touchesCancelled(touches, withEvent: event)
     for touch: AnyObject in touches {
       var t: UITouch = touch as! UITouch
