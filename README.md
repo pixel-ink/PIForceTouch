@@ -22,6 +22,11 @@
 - add PIForchTouchView into your UIViewController
 - set delegate
 
+# demo
+- cd PIForceTouchDemo
+- pod install
+- open PIForceTouch.xcworkspace
+
 ```
 @objc protocol PIForceTouchViewDelegate {
 
