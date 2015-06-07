@@ -2,12 +2,25 @@
 # PIForceTouch
 
 ## Force Touch for iOS (swift)
+## NOTICE: Try in your device, not simulator.
 
 ![](https://cocoapod-badges.herokuapp.com/l/PIForceTouch/badge.png)
 ![](https://cocoapod-badges.herokuapp.com/v/PIForceTouch/badge.png)
 ![](https://cocoapod-badges.herokuapp.com/p/PIForceTouch/badge.png)
 
 ---
+
+#demo
+
+![demo](https://raw.github.com/wiki/pixel-ink/PIRipple/pif.gif)
+
+---
+
+# demo
+
+- cd PIForceTouchDemo
+- pod install
+- open PIForceTouch.xcworkspace
 
 # install
 
@@ -22,17 +35,14 @@
 - add PIForchTouchView into your UIViewController
 - set delegate
 
-# demo
-- cd PIForceTouchDemo
-- pod install
-- open PIForceTouch.xcworkspace
-
 ```
 @objc protocol PIForceTouchViewDelegate {
 
+  //like UIButton's Delegate
   optional func touchUpInside(touch: UITouch)
   optional func forceTouchUpInside(touch: UITouch)
 
+  //like UIView's Delegate
   optional func beganTouch(touch: UITouch)
   optional func beganForceTouch(touch: UITouch)
   optional func endedAllTouch(touch: UITouch)
