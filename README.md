@@ -32,8 +32,10 @@
 
 # usage
 
+- import PIForceTouch
 - add PIForchTouchView into your UIViewController
-- set delegate
+- set delegate your view. (PIForceTouchViewDelegate)
+- write callback
 
 ```
 @objc protocol PIForceTouchViewDelegate {
@@ -49,4 +51,27 @@
   optional func cancelledAllTouch(touch: UITouch)
 
 }
+```
+
+- example
+
+```
+import UIKit
+import PIForceTouch
+
+class ViewController: UIViewController, PIForceTouchViewDelegate {
+
+  @IBOutlet var piftView: PIForceTouchView!
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    piftView.delegate = self
+  }
+
+  func forceTouchUpInside(touch: UITouch) {
+    println("ForceTouched")
+  }
+
+}
+
 ```
