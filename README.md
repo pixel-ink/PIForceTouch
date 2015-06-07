@@ -27,12 +27,11 @@
 - manually
   - add PIForceTouchView.swift into your project
 - cocoapods
-  - add " pod 'PIForceTouch', '0.1.1' " into your Podfile
-  - add " import PIForceTouch " into your code
+  - add " pod 'PIForceTouch', '1.0.0' " into your Podfile
 
 # usage
 
-- import PIForceTouch
+- add " import PIForceTouch " into your code
 - add PIForchTouchView into your UIViewController
 - set delegate your view. (PIForceTouchViewDelegate)
 - write callback
