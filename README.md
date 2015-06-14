@@ -1,5 +1,5 @@
 
-# PIForceTouch
+![PIForceTouch](https://raw.github.com/wiki/pixel-ink/PIRipple/piflogo.gif)
 
 ## Force Touch for iOS (swift)
 ## NOTICE: Try in your device, not simulator.
@@ -7,6 +7,7 @@
 ![](https://cocoapod-badges.herokuapp.com/l/PIForceTouch/badge.png)
 ![](https://cocoapod-badges.herokuapp.com/v/PIForceTouch/badge.png)
 ![](https://cocoapod-badges.herokuapp.com/p/PIForceTouch/badge.png)
+![](https://img.shields.io/badge/twitter-@pixelink__jp-blue.svg)
 
 ---
 
