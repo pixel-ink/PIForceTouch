@@ -1,5 +1,5 @@
 
-![PIForceTouch](https://raw.github.com/wiki/pixel-ink/PIRipple/piflogo.gif)
+# PIForceTouch
 
 ## Force Touch for iOS (swift)
 ## NOTICE: Try in your device, not simulator.
