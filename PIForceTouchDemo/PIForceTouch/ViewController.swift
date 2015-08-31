@@ -26,7 +26,7 @@ class ViewController: UIViewController, PIForceTouchViewDelegate {
   }
   
   //delegate
-  func forceTouch(touch: UITouch){
+  func beganForceTouch(touch: UITouch){
     let location = touch.locationInView(demoView)
     var opt = Ripple.option()
     opt.radius = 50
